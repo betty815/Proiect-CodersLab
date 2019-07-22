@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding:0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url("../img/vod.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.main-nav {
+  list-style:none;
+  margin-top:30px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-family: 'Coustard', serif;
+}
+
+.main-nav li a:hover {
+  border: 1px solid white;
+  font-family: 'Coustard', serif;
+}
+
+.logo h1 {
+  color: black;
+  text-decoration: overline;
+  padding: 20px 30px;
+  font-size: 30px;
+  font-family: 'Coustard', serif;
+}
+
+a.logo {
+  text-decoration: none;
+}
+
+
+/*
+.title {
+   width: 1200px;
+  position: absolute;
+}
+
+
+
+.title h1 {
+  color: black;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 125px;
+  //font-family: 'Coustard', serif;
+}
+
+ */
+
+
+//body
+
+/*
+.container {
+  width: 1280px;
+  min-height: 500px;
+  background: #000;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .pics {
+  text-align: center;
+}
+
+.container .pics .pic-box {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  background: #ff0;
+}
+
+.container .pics .pic-box .ghenie {
+  position: relative;
+}
+
+.container .pics .pic-box .ghenie img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container .pics .pic-box .fota img {
+  max-width: 100%;
+  height: 100%;
+}
+
+ */
+
+#gallery {
+  a {
+    display: block;
+    margin: 5px;
+  }
+}
+
+.container .row .col-sm .ghenie img {
+  transition: transform 2s;
+}
+
+.container .row .col-sm a {
+  display: block;
+  width: 300px;
+}
+
+.container .row .col-sm:hover .ghenie img {
+  transform: scale(1.2);
+}
+
+.container .row .col-sm .ghenie {
+  overflow: hidden;
+}
+
+.container .row .col-sm .fota img {
+  transition: transform 2s;
+}
+
+.container .row .col-sm:hover .fota img {
+  transform: scale(1.2);
+}
+
+.container .row .col-sm .fota {
+  overflow: hidden;
+}
+
+.container .row .col-sm .edith img {
+  transition: transform 2s;
+}
+
+.container .row .col-sm:hover .edith img {
+  transform: scale(1.2);
+}
+
+.container .row .col-sm .edith {
+  overflow: hidden;
+}
+
+.container .row .col-sm .tudoran img {
+  transition: transform 2s;
+}
+
+.container .row .col-sm:hover .tudoran img {
+  transform: scale(1.2);
+}
+
+.container .row .col-sm .tudoran {
+  overflow: hidden;
+}
+
+.container .row .col-sm .caltia img {
+  transition: transform 2s;
+}
+
+.container .row .col-sm:hover .caltia img {
+  transform: scale(1.2);
+}
+
+.container .row .col-sm .caltia {
+  overflow: hidden;
+}
+
+.container .row .col-sm .coma img {
+  transition: transform 2s;
+}
+
+.container .row .col-sm:hover .coma img {
+  transform: scale(1.2);
+}
+
+.container .row .col-sm .coma {
+  overflow: hidden;
+}
+
+.container .row .col-sm .details {
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+  color: white;
+}
+
+#artists {
+  margin: 40px;
+  background-color: #f2f2f2;
+}
+
+#artists h3 {
+  text-align: center;
+  margin: 15px;
+  padding: 20px;
+  font-size: 50px;
+  font-style: oblique;
+}
+
+#ag {
+  display: flex;
+  padding: 20px;
+}
+
+.ghenie-info {
+  display: inline-block;
+  padding: 30px;
+  margin: 30px;
+}
+
+#vf {
+  display: flex;
+  padding: 20px;
+}
+
+.fota-info {
+  display: inline-block;
+  padding: 30px;
+  margin: 30px;
+}
+
+#et {
+  display: flex;
+  padding: 20px;
+}
+
+.edith-info {
+  display: inline-block;
+  padding: 30px;
+  margin: 30px;
+}
+
+#at {
+  display: flex;
+  padding: 20px;
+}
+
+.andrei-info {
+  display: inline-block;
+  padding: 30px;
+  margin: 30px;
+}
+
+#sc {
+  display: flex;
+  padding: 20px;
+}
+
+.caltia-info {
+  display: inline-block;
+  padding: 30px;
+  margin: 30px;
+}
+
+#nc {
+  display: flex;
+  padding: 20px;
+}
+
+.coma-info {
+  display: inline-block;
+  padding: 30px;
+  margin: 30px;
+}
+
+#contact {
+  padding: 50px;
+  background-color: beige;
+}
+
+.concierge h2 {
+  text-decoration: underline;
+}
+/*
+.fives {
+  width: 100%;
+  display: flex;
+}
+
+
+
+
+.fives div p {
+  padding: 10px;
+}
+ */
+
+#services {
+  padding: 30px;
+  background-color: goldenrod;
+
+}
+
+#services .concierge {
+  position: relative;
+  top: 30px;
+}
+
+#services .concierge .details {
+  position: absolute;
+  top: 30px;
+  background: rgba(0,0,0,.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+
+}
+
+#services .concierge:hover .details {
+  transform: scaleY(1);
+  color: goldenrod;
+  padding: 20px;
+  text-align: center;
+}
+
+.fives {
+  width: 100%;
+  display: flex;
+}
+
+h3 {
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.advice, .research, .negociation, .logistics, .pleasure {
+  width: 245px;
+}
+#services .fives .advice, .research, .negociation, .logistics, .pleasure {
+  position: relative;
+}
+
+#services .fives .advice .fives-details {
+  background: rgba(0,0,0,.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+  position: absolute;
+  top: 0px;
+}
+
+#services .fives .advice:hover .fives-details {
+  transform: scaleY(1);
+  color: goldenrod;
+  padding: 10px;
+  top: 0px;
+  position: absolute;
+}
+
+#services .fives .research .fives-details {
+  background: rgba(0,0,0,.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+  position: absolute;
+  top: 0px;
+}
+
+#services .fives .research:hover .fives-details {
+  transform: scaleY(1);
+  color: goldenrod;
+  padding: 20px;
+  top: 120px;
+  position: absolute;
+}
+
+#services .fives .negociation .fives-details {
+  background: rgba(0,0,0,.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+  position: absolute;
+  top: 0px;
+}
+
+#services .fives .negociation:hover .fives-details {
+  transform: scaleY(1);
+  color: goldenrod;
+  padding: 20px;
+  top: 80px;
+  position: absolute;
+}
+
+#services .fives .logistics .fives-details {
+  background: rgba(0,0,0,.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+  position: absolute;
+  top: 0px;
+}
+
+#services .fives .logistics:hover .fives-details {
+  transform: scaleY(1);
+  color: goldenrod;
+  padding: 20px;
+  top: 50px;
+  position: absolute;
+}
+
+#services .fives .pleasure .fives-details {
+  background: rgba(0,0,0,.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+  position: absolute;
+  top: 0px;
+}
+
+#services .fives .pleasure:hover .fives-details {
+  transform: scaleY(1);
+  color: goldenrod;
+  padding: 10px;
+  top: 0px;
+  position: absolute;
+}
+
+.footer {
+  padding: 20px;
+  background-color: darkgray;
+}
